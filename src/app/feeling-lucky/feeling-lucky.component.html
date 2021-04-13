@@ -1,0 +1,4 @@
+<ng-container *ngIf="random; else loading">
+  <div class="results">Random: {{ random.slip.advice }}</div>
+</ng-container>
+<ng-template #loading> loading... </ng-template>
